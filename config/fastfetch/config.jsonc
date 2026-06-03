@@ -1,0 +1,121 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+        "type": "file",
+        "source": "~/.config/fastfetch/ascii.txt",
+        "color": {
+            "1": "#cdd6f4"
+    },
+    "padding": {
+    	"top": 5,
+	"left": 2
+	}
+    },
+    "display": {
+        "color": {
+            "keys": "#bac2de",
+            "title": "#cdd6f4"
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "              \u001b[38;2;205;214;244mzel\u001b[38;2;147;153;178m@\u001b[38;2;180;194;222mvermillon\u001b[0m"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;147;153;178m┌── system ───────────────────────────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": "  \u001b[38;2;137;180;250m\uf303\u001b[0m  os",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "kernel",
+            "key": "  \u001b[38;2;116;199;236m\uf17c\u001b[0m  kernel",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "packages",
+            "key": "  \u001b[38;2;148;226;213m\uf487\u001b[0m  packages",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "shell",
+            "key": "  \u001b[38;2;166;227;161m\uf489\u001b[0m  shell",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;147;153;178m└─────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;147;153;178m┌── desktop ──────────────────────────────────────────┐"
+        },
+        {
+            "type": "de",
+            "key": "  \u001b[38;2;243;166;185m\uf108\u001b[0m  de",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "wm",
+            "key": "  \u001b[38;2;235;160;172m\uf2d0\u001b[0m  wm",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "font",
+            "key": "  \u001b[38;2;203;166;247m\uf031\u001b[0m  font",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "terminal",
+            "key": "  \u001b[38;2;180;190;254m\uf489\u001b[0m  terminal",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;147;153;178m└─────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;147;153;178m┌── info ─────────────────────────────────────────────┐"
+        },
+        {
+            "type": "uptime",
+            "key": "  \u001b[38;2;249;226;175m\uf017\u001b[0m  uptime",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "player",
+            "key": "  \u001b[38;2;250;179;135m\uf001\u001b[0m  player",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "media",
+            "key": "  \u001b[38;2;243;139;168m\uf028\u001b[0m  music",
+            "keyColor": "#bac2de",
+            "format": "{artist} - {title}"
+        },
+        {
+            "type": "datetime",
+            "key": "  \u001b[38;2;235;160;172m\uf073\u001b[0m  date",
+            "keyColor": "#bac2de"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;147;153;178m└─────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "colors",
+            "paddingLeft": 14,
+            "symbol": "circle"
+        }
+    ]
+}

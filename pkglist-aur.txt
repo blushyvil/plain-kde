@@ -1,0 +1,9 @@
+apple-fonts
+brave-bin
+cbonsai
+ms-sys
+spotify
+ttf-apple-emoji
+woeusb-ng
+yay
+yay-debug
