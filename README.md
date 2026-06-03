@@ -1,4 +1,6 @@
-## HOW TO INSTALL THIS DOTFILES
+## HOW TO INSTALL MY FIRSTT DOTFILES
+
+![desktop](screenshots/desktop.png)
 
 <div>
   
